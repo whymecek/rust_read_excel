@@ -5,7 +5,8 @@ use std::collections::HashMap;
 fn main() {
     let start = SystemTime::now();
     
-    let path = "/home/brian/Downloads/Electric_Vehicle_Population_Data3.xlsx";
+    let path = "./Electric_Vehicle_Population_Data2.xlsx";
+    // let path = "./Electric_Vehicle_Population_Data3.xlsx";
     let mut workbook = open_workbook_auto(path).expect("Cannot open file");
     println!("Execution Read {:?} ", ( SystemTime::now().duration_since(start).unwrap() ) );
 
