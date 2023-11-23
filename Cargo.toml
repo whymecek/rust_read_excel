@@ -8,3 +8,4 @@ edition = "2021"
 [dependencies]
 ahash = "0.8.6"
 calamine = "0.22.1"
+memory-stats = "1.1.0"
